@@ -1,0 +1,36 @@
+Env Dataset
+●	SensorLocation                  : Lokasi geografis tempat sensor ditempatkan.
+●	Pollutant_PM2.5_µg/m³           : Konsentrasi partikel polusi udara PM2.5 dalam mikrogram per meter kubik.
+●	Pollutant_PM10_µg/m³            : Konsentrasi partikel polusi udara PM10 dalam mikrogram per meter kubik.
+●	Pollutant_O3_ppb                : Konsentrasi ozon (O₃) dalam bagian per miliar (ppb).
+●	Pollutant_NO2_ppb               : Konsentrasi nitrogen dioksida (NO₂) dalam ppb.
+●	Pollutant_CO_ppm                : Konsentrasi karbon monoksida (CO) dalam bagian per juta (ppm).
+●	Pollutant_SO2_ppb               : Konsentrasi sulfur dioksida (SO₂) dalam ppb.
+●	UrbanVegetationArea_m2          : Luas vegetasi di area urban dalam meter persegi.
+●	Humidity_%                      : Tingkat kelembaban udara dalam persen.
+●	AirTemperature_C                : Suhu udara dalam derajat Celsius.
+●	EnergySavingTechnology          : Jenis teknologi hemat energi yang digunakan di wilayah tersebut.
+●	AnnualEnergySavings_%           : Persentase penghematan energi tahunan yang dicapai.
+●	PopulationDensity_people/km²    : Kepadatan populasi di area tersebut dalam jumlah orang per kilometer persegi.
+●	RetrofitData                    : Informasi terkait program retrofit bangunan untuk meningkatkan efisiensi energi.
+●	RenewableEnergyPercentage_%     : Persentase energi terbarukan yang digunakan di wilayah tersebut.
+●	AnnualEnergyConsumption_kWh     : Total konsumsi energi tahunan dalam kilowatt-jam.
+●	GreenSpaceIndex_%               : Persentase ruang hijau yang tersedia di wilayah tersebut.
+●	HistoricPollutantLevels         : Data historis tingkat polutan di wilayah tersebut.
+●	Country                         : Negara tempat data diambil.
+●	AQI_Index                       : Indeks kualitas udara (Air Quality Index) yang menunjukkan tingkat kebersihan udara.
+
+Building Dataset
+●	BuildingType                    : Jenis bangunan
+●	YearBuilt                       : Tahun bangunan dibangun.
+●	MonthlyElectricityConsumption_kWh: Konsumsi listrik bulanan dalam kilowatt-jam.
+●	PeakUsageTime_Hour              : Jam puncak penggunaan listrik selama sehari.
+●	RenewableCapacity_kWh           : Kapasitas energi terbarukan yang terpasang pada bangunan (dalam kilowatt-jam).
+●	RenewableType                   : Jenis energi terbarukan yang digunakan (misalnya, surya, angin, atau biomassa).
+●	RenewableContributionPercentage : Persentase kontribusi energi terbarukan terhadap total konsumsi energi bangunan.
+●	EnergySource                    : Sumber energi utama untuk bangunan (misalnya, listrik jaringan, gas, atau bahan bakar lainnya).
+●	EnergyEfficiency_kWh_per_m2     : Efisiensi energi bangunan diukur sebagai konsumsi energi per meter persegi.
+●	WeatherData_Temperature_C       : Data suhu lingkungan sekitar bangunan dalam derajat Celsius.
+●	WeatherData_SolarIntensity_Hours: Durasi intensitas matahari dalam jam per hari.
+●	WeatherData_WindSpeed_km_h      : Kecepatan angin di sekitar bangunan dalam kilometer per jam.
+
